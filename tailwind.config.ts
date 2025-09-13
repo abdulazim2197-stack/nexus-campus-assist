@@ -57,6 +57,25 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        campus: {
+          "blue-deep": "hsl(var(--campus-blue-deep))",
+          "blue-medium": "hsl(var(--campus-blue-medium))",
+          "blue-light": "hsl(var(--campus-blue-light))",
+          "text-muted": "hsl(var(--campus-text-muted))",
+        },
+      },
+      backgroundImage: {
+        "campus-gradient": "var(--campus-gradient)",
+      },
+      boxShadow: {
+        "campus-card": "var(--campus-card-shadow)",
+      },
+      backgroundColor: {
+        "campus-card": "var(--campus-card-bg)",
+      },
+      transitionTimingFunction: {
+        "smooth": "var(--transition-smooth)",
+        "bounce": "var(--transition-bounce)",
       },
       borderRadius: {
         lg: "var(--radius)",
